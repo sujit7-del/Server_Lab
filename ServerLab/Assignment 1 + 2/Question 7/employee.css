@@ -1,0 +1,140 @@
+
+.bg-container{
+    background-color:#F7F7F7;
+    padding-left:6px;
+    padding-top:6px;
+    margin-left:350px;
+}
+
+.heading{
+    color:red;
+    font-family:"Caveat";
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:80px;
+}
+
+.border{
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    height:1200px;
+    width:800px;
+}
+
+.border1{
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    height:1190px;
+    width:790px;
+}
+
+.input{
+    padding:7px;
+    width:340px;
+    margin-bottom:20px;
+    border-style:solid;
+    border-bottom-color:#E1E2DE;
+    border-right-color:#E1E2DE;
+    border-width:2px;
+    font-size:20px;
+}
+
+.label{
+    font-size:25px;
+    margin-right:10px;
+    margin-left:150px;
+}
+
+.label1{
+    font-size:25px;
+}
+
+.label2{
+    font-size:25px;
+    margin-left:377px;
+}
+
+.textArea{
+    margin-left:400px;
+    font-size:20px;
+    margin-bottom:50px;
+}
+
+.margin{
+    font-size:25px;
+    margin-left:150px;
+}
+
+.btn{
+    margin-left:320px;
+    margin-bottom:0px;
+}
+
+.btn1{
+    margin-right:10px;
+    padding:8px;
+    font-size:20px;
+    border-radius:5px;
+    border-style:solid;
+    border-width:1px;
+}
+
+.style1{
+    margin-left:85px;
+}
+
+.style2{
+    margin-left:42px;
+}
+
+.style3{
+    margin-left:152px;
+}
+
+.style4{
+    margin-left:120px;
+}
+
+.style5{
+    margin-left:29px;
+}
+
+.style6{
+    margin-left:110px;
+}
+
+.style6{
+    margin-left:110px;
+}
+
+.style6{
+    margin-left:110px;
+}
+
+.style7{
+    margin-left:65px;
+}
+
+.style7{
+    margin-left:65px;
+}
+
+.style8{
+    margin-left:138px;
+}
+
+.style9{
+    margin-left:125px;
+}
+
+.style10{
+    margin-left:10px;
+}
+
+.image{
+    height:100px;
+    width:100px;
+}

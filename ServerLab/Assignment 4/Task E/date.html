@@ -1,0 +1,10 @@
+<p id="dateTime"></p>
+<button onclick="showDateTime()">Show Date & Time</button>
+
+<script>
+  function showDateTime() {
+    let now = new Date();
+    document.getElementById("dateTime").innerText = now.toLocaleString();
+  }
+</script>
+

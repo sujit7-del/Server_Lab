@@ -1,0 +1,173 @@
+
+.heading{
+    font-family:"Caveat";
+    font-size:20px;
+    color:black;
+    text-align:center;
+    margin-top:50px;
+}
+
+.outer-border{
+    height:462px;
+    width:1028px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    margin-left:250px;
+    margin-top:50px;
+}
+
+.upper1{
+    height:100px;
+    width:100px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    margin-left:3px;
+    margin-top:3px;
+}
+
+.upper2{
+    height:100px;
+    width:350px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    margin-left:3px;
+    margin-top:3px;
+}
+
+.upper3{
+    height:100px;
+    width:200px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    margin-left:3px;
+    margin-top:3px;
+}
+
+.upper4{
+    height:50px;
+    width:350px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    margin-left:3px;
+    margin-top:3px;
+}
+
+.upper5{
+    height:44px;
+    width:83px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    margin-left:3px;
+    margin-top:3px;
+}
+
+.inner-border{
+    display:flex;
+    flex-direction:column;
+}
+
+.First{
+    display:flex;
+    flex-direction:row;
+}
+
+.text1{
+    font-family:"Caveat";
+    padding-left:12px;
+    padding-top:15px;
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+}
+
+.text2{
+    font-family:"Caveat";
+    padding-left:130px;
+    padding-top:15px;
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+}
+
+.text3{
+    font-family:"Caveat";
+    padding-left:30px;
+    padding-top:15px;
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+}
+
+.text4{
+    font-family:"Caveat";
+    padding-left:50px;
+    font-size:21px;
+    color:black;
+    font-weight:bold;
+}
+
+.text5{
+    font-family:"Caveat";
+    text-align:center;
+    font-size:15px;
+    color:black;
+    font-weight:normal;
+}
+
+.Second{
+    display:flex;
+    flex-direction:column;
+}
+
+.upper6{
+    height:44px;
+    width:99px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    margin-left:3px;
+    margin-top:3px;
+}
+
+.head{
+    text-align:center;
+    font-size:15px;
+}
+
+.upper7{
+    height:44px;
+    width:350px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    margin-left:3px;
+    margin-top:3px;
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+}
+
+.tail{
+    text-align:center;
+    font-size:15px;
+    font-weight:bold;
+}
+
+
+.upper8{
+    height:44px;
+    width:200px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    margin-left:3px;
+    margin-top:3px;
+}

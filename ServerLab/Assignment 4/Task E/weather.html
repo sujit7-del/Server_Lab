@@ -1,0 +1,24 @@
+<input type="text" id="city" placeholder="Enter City">
+<button onclick="getWeather()">Get Weather</button>
+<p id="weatherResult"></p>
+
+<script>
+  function getWeather() {
+    let city = document.getElementById("city").value;
+    let apiKey = "YOUR_OPENWEATHER_API_KEY"; // Replace with your OpenWeather API Key
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+    let xhr = new XMLHttpRequest();
+    xhr.open("GET", url, true);
+    xhr.onload = function () {
+      if (xhr.status == 200) {
+        let data = JSON.parse(xhr.responseText);
+        document.getElementById("weatherResult").innerText = 
+          `🌡 Temperature: ${data.main.temp}°C, 🌦 Condition: ${data.weather[0].description}`;
+      } else {
+        document.getElementById("weatherResult").innerText = "City not found!";
+      }
+    };
+    xhr.send();
+  }
+</script>

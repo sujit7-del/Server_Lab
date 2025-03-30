@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <link rel="stylesheet" href="employee.css">
+</head>
+<body>
+    
+    <div class="bg-container border">
+        <div class="border1">
+        <h1 class="heading">Employee Registration Form</h1>   
+        <br/>
+
+        <label for="firstName" class="label" name="choice" value="firstName">First Name : </label>
+        <input type="text" id="firstName" class="input style1" placeholder="First Name"/>
+        <br/>
+
+        
+        <label for="lastName" class="label" name="choice" value="lastName">Last Name : </label>
+        <input type="text" id="lastName" class="input style1" placeholder="Last Name"/>
+        <br/>
+
+        <label for="mailAddress1" class="label" name="choice" value="mailAddress1">Mail Address 1 : </label>
+        <input type="text" id="mailAddress1" class="input style2" placeholder="Mail1"/>
+        <br/>
+
+        <label for="mailAddress2" class="label" name="choice" value="mailAddress2">Mail Address 2 : </label>
+        <input type="text" id="mailAddress2" class="input style2" placeholder="Mail2"/>
+        <br/> 
+
+        <label for="city" class="label" name="choice" value="city">City : </label>
+        <input type="text" id="city" class="input style3" placeholder="Enter City">
+        <br/>
+
+       
+        <div>
+            <label class="label">Gender : </label>
+            <input type="radio" id="gender1" name="choice" value="male" class="style4"/>
+            <label for="gender1" class="label1">Male</label>
+            <input type="radio" id="gender2" name="choice" value="female"/>
+            <label for="gender2" class="label1">Female</label>
+            <input type="radio" id="gender3" name="choice" value="other"/>
+            <label for="gender3" class="label1">Other</label>
+        </div>
+        <br/>
+
+        <label for="State" class="label">Choose an option:</label>
+        <select id="State" name="options" class="label1 style5">
+        <option value="option1">Gujarat</option>
+        <option value="option2">Madhya Pradesh</option>
+        <option value="option3">Arunachal Pradesh</option>
+        </select>
+        <br/>
+        <br/>
+
+        <label for="zip" class="label" name="choice" value="zip">ZipCode : </label>
+        <input type="text" id="zip" class="input style6"/>
+        <br/>
+
+        <label for="browseImage" class="label" name="choice" value="browseImage">Upload Photo: </label>
+        <input type="file" id="browseImage" class="input style7" placeholder="browse"/>
+        <br/>
+
+        <label for="email" class="label" name="choice" value="email">Email : </label>
+        <input type="email" id="email" class="input style8"/>
+        <br/>
+
+        <label for="mobile" class="label" name="choice" value="mobile">Mobile : </label>
+        <input type="text" id="mobile" class="input style9" placeholder="+91"/>
+        <br/>
+
+        <div class="d-flex flex-column">
+        <label class="label">Languages Known : </label>
+        <input type="checkbox" id="language1" name="choice" value="English" class="style10"/>
+        <label for="language1" class="label1">English</label><br/>
+        <input type="checkbox" id="language2" name="choice" value="Hindi" class="label2"/>
+        <label for="language2" class="label1">Hindi</label><br/>
+        <input type="checkbox" id="language3" name="choice" value="Gujarati" class="label2"/>
+        <label for="language3" class="label1">Gujarati</label><br/>
+        <input type="checkbox" id="language4" name="choice" value="Marathi" class="label2"/>
+        <label for="language4" class="label1">Marathi</label><br/>
+        </div>
+
+        <label for="additionalInfo" class="margin">Additional Information : </label>
+        <textarea id="additionalInfo" class="textArea" rows="4" cols="20" placeholder="Optional"></textarea>
+
+        <div class="btn">
+            <input type="submit" value="Submit" class="submit btn1"/>
+            <input type="reset" value="Reset" class="reset btn1"/>
+        </div>
+
+        </div>
+    </div>
+    
+
+
+
+
+</body>
+</html>

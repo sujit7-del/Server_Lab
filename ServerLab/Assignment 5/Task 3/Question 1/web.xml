@@ -1,0 +1,21 @@
+<servlet>
+    <servlet-name>ConfigServlet</servlet-name>
+    <servlet-class>com.example.ConfigServlet</servlet-class>
+    <init-param>
+        <param-name>dbURL</param-name>
+        <param-value>jdbc:mysql://localhost:3306/mydb</param-value>
+    </init-param>
+    <init-param>
+        <param-name>dbUser</param-name>
+        <param-value>root</param-value>
+    </init-param>
+    <init-param>
+        <param-name>dbPassword</param-name>
+        <param-value>password123</param-value>
+    </init-param>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ConfigServlet</servlet-name>
+    <url-pattern>/config</url-pattern>
+</servlet-mapping>

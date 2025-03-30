@@ -1,0 +1,89 @@
+
+.border{
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    height:813px;
+    width:350px;
+    margin-left:570px;
+}
+
+.block1{
+    height:45px;
+    width:170px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    margin:3px;
+}
+
+.block{
+    display:flex;
+    flex-direction:row;
+}
+
+.main-heading{
+    font-family:"Caveat";
+    font-size:35px;
+    font-weight:bold;
+    color:red;
+    text-align:center;
+}
+
+.head{
+    font-family:"Caveat";
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+    text-align:center;
+}
+
+.normal{
+    font-family:"Caveat";
+    font-size:20px;
+    font-weight:normal;
+    color:black;
+    text-align:center;
+}
+
+.normal1{
+    font-family:"Caveat";
+    font-size:18px;
+    font-weight:normal;
+    color:black;
+    text-align:center;
+}
+
+.font{
+    font-family:"Caveat";
+    font-size:20px;
+    font-weight:bold;
+    color:blue;
+    text-align:center;
+}
+
+.bold{
+    font-family:"Caveat";
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+    text-align:center;
+}
+
+.italic{
+    font-family:"Caveat";
+    font-size:20px;
+    font-style:italic;
+    font-weight:normal;
+    color:black;
+    text-align:center;
+}
+
+.underline{
+    font-family:"Caveat";
+    font-size:20px;
+    font-weight:normal;
+    text-decoration:underline;
+    color:black;
+    text-align:center;
+}
