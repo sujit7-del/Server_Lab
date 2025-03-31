@@ -51,6 +51,7 @@ Session
 - **Java**: 19%
 - **CSS**: 15.4%
 - **JavaScript**: 6.5%
+- **Python**: 0.8%
 
 ## Installation
 
