@@ -1,0 +1,23 @@
+.cast3{
+    font-family:"Times New Roman", Times, serif;
+    font-size:25px;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+    margin-top:40px;
+}
+
+.cast4{
+    font-family:"Times New Roman", Times, serif;
+    font-size:25px;
+    color:red;
+    text-decoration:underline;
+    font-weight:bold;
+    text-align:center;
+    margin-top:40px;
+}
+
+.list1{
+    margin-left:400px;
+    margin-top:50px;
+}

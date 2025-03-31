@@ -1,0 +1,41 @@
+.display{
+    display:vertical;
+}
+
+.container{
+    height:300px;
+    width:300px;
+    background-color:burlywood;
+    margin-top:60px;
+    margin-left:120px;
+    text-align:center;
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    border-radius:5px;
+    margin-right:200px;
+}
+
+.aboutHeading{
+    font-family:"Roboto";
+    font-size:25px;
+    font-weight:bold;
+    margin-bottom:15px;
+    padding-top:30px;
+}
+
+.headingx{
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.aboutIET{
+    font-size:17px;
+    font-family:"Times New Roman", Times, serif;
+}
+
+.outer{
+    display:flex;
+    margin-left:220px;
+    margin-right:160px;
+}

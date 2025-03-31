@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="college.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+    <!-- Header -->
+   <div class="header">
+        <img src="https://th.bing.com/th/id/OIP.nEPxNcUrh6H1x91JqnSPAAHaHb?rs=1&pid=ImgDetMain" alt="College Logo" class="img"/>
+
+        <div>
+        <h1 class="heading">Institute Of Engineering And Technology</h1>
+        <br>
+        <h1 class="heading">Devi Ahilya Vishwavidyalaya</h1>
+        </div>
+
+        <input type="text" placeholder="Search..." class="search"/>
+    </div>
+    
+
+    <!--Navigation Bar -->
+
+    <nav>
+        <ul>
+        <li><a href="college.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li>
+            <a href="courses.html">Academics</a>
+        </li>
+        <li>
+            <a href="#">Admission ▾</a>
+            <ul class="dropdown">
+                <li><a href="procedure.html">Procedure</a></li>
+                <li><a href="eligibility.html">Eligibility</a></li>
+                <li><a href="enrollment.html">Enrollment List</a></li>
+                <li><a href="https://collegedunia.com/college/28295-institute-of-engineering-and-technology-devi-ahilya-university-iet-davv-indore">Fee Structure</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Activity ▾</a>
+            <ul class="dropdown">
+                <li><a href="https://gdsc.ietdavv.edu.in/">GDSC</a></li>
+                <li><a href="https://www.ecellietdavv.in/newsletter">IET-NewsLetter</a></li>
+                <li><a href="https://www.youtube.com/@blastatiet">Live@IET</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Examinations ▾</a>
+            <ul class="dropdown">
+                <li><a href="exam.html">Exam Time Table</a></li>
+                <li><a href="practical.html">Practical Exam Time Table</a></li>
+                <li><a href="examNotices.html">Notices</a></li>
+            </ul>
+        </li>
+        <li><a href="tender.html">Tender</a></li>
+        <li><a href="faculties.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main Content -->
+    <main>
+        <img src="https://www.ietdavv.edu.in/images/IIIC/P7.jpg" class="slide" alt=""/>
+        <img src="https://www.ietdavv.edu.in/images/IIIC/P6.jpg" class="slide" alt=""/>
+        <img src="https://www.ietdavv.edu.in/images/IIIC/P4.jpg" class="slide" alt=""/>
+        <img src="https://www.ietdavv.edu.in/images/IIIC/P3.jpg" class="slide" alt=""/>
+        <img src="https://www.ietdavv.edu.in/images/IIIC/P2.jpg" class="slide" alt=""/>
+    </main>
+
+    <div class="nav">
+        <button onclick="goPrev()" class="navButton1">
+            Previous
+        </button>
+        <button onclick="goNext()" class="navButton1">
+            Next
+        </button>
+    </div>
+    <script src="college.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.para1{
+    font-family:"Times New Roman", Times, serif;
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+    margin-top:35px;
+    margin-left:250px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-left:400px;
+    margin-top:50px;
+}
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.head{
+    font-family:"Times New Roman", Times, serif;
+    font-size:55px;
+    font-weight:bold;
+    color:black;
+    margin-left:50px;
+    text-align:center;
+    margin-top:15px;
+}

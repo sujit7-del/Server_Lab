@@ -1,0 +1,41 @@
+.admission{
+    color:red;
+}
+
+.heading1{
+    font-family:"Times New Roman", Times, serif;
+    font-size:40px;
+    font-weight:bold;
+    color:black;
+    margin-left:50px;
+    text-align:center;
+    margin-top:130px;
+}
+
+.heading2{
+    font-family:"Times New Roman", Times, serif;
+    font-size:25px;
+    font-weight:bold;
+    color:black;
+    margin-left:50px;
+    text-align:center;
+    margin-top:15px;
+    text-decoration:underline;
+}
+
+.para1{
+    font-family: "Roboto";
+    font-size:19px;
+    font-weight:bold;
+    color:black;
+    margin-top:35px;
+    margin-left:250px;
+}
+
+.para2{
+    font-family:"Roboto";
+    font-size:17px;
+    color:black;
+    margin-top:20px;
+    margin-left:250px;
+}
